@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.material-icons{
+    color: rgb(96,96,96);
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+    padding: 15px;
+    
+}
+.left_nav{
+    display: flex;
+    align-items: center;
+}
+.navbar>.left_nav>img{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.center_nav form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.center_nav input{
+    width: 500px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    border: none;
+}
+
+.main{
+    display: flex;
+    overflow: hidden;
+    height: calc(100vh - 70px);
+    
+}
+.bar{
+    height: 100%;
+    width: 230px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.subbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.detail-bar{
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+}
+.detail-bar span{
+    margin-left: 15px;
+}
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin-top: 15px;
+}
+
+
+
+.video-panel-main{
+    height: 100%;
+    width: 100%;
+    padding: 15px 15px;
+    overflow-y: scroll;
+    border-top: 1px solid #ddd;
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.video{
+    width: 310px;   
+    margin-bottom: 20px;
+
+}
+.pic{
+    width: 100%;
+    height: 170px;
+}
+.Photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px ;
+}
+
+.video-details{
+    display: flex;
+    flex-direction: row;
+
+}
+.details{
+    width: 70px;
+    height: 70px;
+}
+.details img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title h3{
+    color: rgb(3,3,3);
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 6px; 
+ }
+ 
+ .title a,span{
+     text-decoration: none;
+     color: rgb(96,96,96);
+     font-size: 14px;
+ }
+ 
+ h1{
+     font-size: 20px;
+     margin-bottom: 10px;
+     color: rgb(3,3,3);
+ } 
+ 
